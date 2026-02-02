@@ -1,0 +1,119 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{setspace}
+
+\geometry{margin=1in}
+\setstretch{1.15}
+\setlength{\parindent}{0pt}
+
+\begin{document}
+
+% ---------- Header ----------
+\begin{minipage}{0.6\textwidth}
+\includegraphics[width=6cm]{/sdcard/Download/logo.png}
+\end{minipage}
+\begin{minipage}{0.4\textwidth}
+\raggedleft
+Name: Anushka A K\\
+Id: COMETFWC042\\
+Date: \today
+\end{minipage}
+
+\vspace{1cm}
+
+\begin{center}
+{\Large MATHEMATICS}\\
+{\Large APPLICATION OF MATRICES}\\
+Word Problem Using Matrix Method
+\end{center}
+
+\vspace{0.7cm}
+
+\textbf{SECTION A}
+
+\vspace{0.3cm}
+
+\begin{enumerate}
+
+\item In an orphanage, an amount of money was distributed among the children.
+
+If there were $8$ children less, each child would have received Rs.\ $10$ more.
+
+If there were $16$ children more, each child would have received Rs.\ $10$ less.
+
+Using the matrix method, find:
+
+\begin{enumerate}
+\item Number of children.
+\item Total amount distributed.
+\item What values are reflected by this decision?
+\end{enumerate}
+
+\vspace{0.4cm}
+
+\textbf{Solution using matrix method}
+
+Let number of children be $x$ and share per child be $y$.
+
+Total amount = $xy$.
+
+Conditions give:
+
+\[
+(x-8)(y+10)=xy
+\]
+
+\[
+(x+16)(y-10)=xy
+\]
+
+Expanding,
+
+\[
+10x-8y=80
+\]
+
+\[
+-10x+16y=160
+\]
+
+Matrix form:
+
+\[
+\begin{bmatrix}
+10 & -8 \\
+-10 & 16
+\end{bmatrix}
+\begin{bmatrix}
+x \\ y
+\end{bmatrix}
+=
+\begin{bmatrix}
+80 \\ 160
+\end{bmatrix}
+\]
+
+Solving,
+
+\[
+x = 24, \quad y = 20
+\]
+
+Number of children = 24.
+
+Total amount:
+
+\[
+24 \times 20 = 480
+\]
+
+Total amount distributed = Rs.\ 480.
+
+Values reflected: fairness, care, and equal distribution.
+
+\end{enumerate}
+
+\end{document}
